@@ -1,0 +1,160 @@
+*
+
+{
+margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand img{
+width: 100px;
+}
+
+body{
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ba
+}
+.text
+{ 
+color: black;
+font-size: 60px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 0px 0px 5px  #09c;
+    
+}
+h1::after
+{
+    content: "";
+animation-name: typeing;
+animation-duration: 6s;
+animation-iteration-count:infinite;
+animation-direction: alternate;
+color: black
+}
+
+@keyframes typeing {
+    0%{content: "";}
+    2%{content: " M";}
+    4%{content: " Mo";}
+    6%{content: " Moh ";}
+    8%{content: " MohA";}
+    10%{content: " MohAm";}
+    12%{content: " MohAme";}
+    14%{content: " MohAmed";}
+    16%{content: " MohAmed S";}
+    18%{content: " MohAmed Sa";}
+    20%{content: " MohAmed Sae";}
+    22%{content: " MohAmed Saee";}
+    24%{content: " MohAmed Saeed''";}
+    26%{content: " MohAmed Saee";}
+    28%{content: " MohAmed Sae";}
+    30%{content: " MohAmed Sa";}
+    32%{content: " MohAmed ";}
+    34%{content: " MohAmed";}
+    36%{content: " MohAme";}
+    38%{content: " MohAm";}
+    40%{content: " MohA";}
+    42%{content: " Moh ";}
+    44%{content: "Mo";}
+    46%{content: " M";}
+    48%{content: "";}
+}
+.taxi
+{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: run;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes run
+{
+    0%{left:0px;top:0px;transform:rotateY(180deg);}
+    50%{left:1000px;top:0px;transform:rotateY(180deg);}
+    51%{transform: rotateY(360deg);}
+    100%{left:0px;top:0px ;transform:rotateY(360deg);}
+}
+
+h2::first-letter
+{
+    color: rebeccapurple;
+    font-size: 50px;
+}
+.ooo
+{
+    text-align: center;
+}
+.cn{
+    text-align: center;
+}
+.clearfixed
+{
+    clear: both;
+}
+.chile img
+{
+    width: 67%;
+    border-radius: 50%  50%;
+    box-shadow: #313131 0px 0px 10px 10px;
+}
+.name
+{
+    font-size: 22px;
+}
+.itme
+{
+    width: 25%;
+    float: left;
+text-align: center;
+padding: 6px 9px;
+
+}
+.chile
+{
+    
+padding: 10px 10px;
+}
+.fa-city
+{font-size: 50px;
+color: black;
+}
+.fa-tv
+{
+    font-size:50px;
+    color: black;;
+}
+.fa-spin
+{font-size: 50px;
+color: black;}
+.fa-suitcase
+{
+    font-size:59px;
+    color: black;
+}
+.tex-muted
+{
+   text-align: center; 
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;;
+}
+.tex-mutedd {
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+.three {
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+.three-cn
+{color: #09c;;
+
+}
